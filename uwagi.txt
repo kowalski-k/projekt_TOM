@@ -1,0 +1,8 @@
+Zaproponowane podejście w ogólnym ujęciu jest poprawne.
+
+Sugestie:
+1) Obok wizualnej ewaluacji, proponuję zastosować ilosciową ocenę wyników (podając również odpowiednie statystyki)
+2) W celu zmniejszenia zapotrzebowania na pamięć można rozważyć przeskalowanie obrazów do mniejszej rozdzielczości (np. 256x256) i tym samym
+zmniejszenie receptive field odpowidającego UNeta (kilkukrotnie zmniejszy zapotrzebowanie na pamięć). Dodatkowo do pamięci w danym momencie powinien być wczytywany tylko jeden batch o ograniczonej wielkości.
+Takie podejście umożliwi uczenie sieci na dowolnym komputerze, a na pewno nie będzie problemów korzystając z platformy Google Collab. Co więcej, można rozważyć użycia typu float16 (wymagany do pełnego wykorzystania TPU).
+3) Zmiana formatu na PNG nie zmniejszy zuzycia pamieci. Ogólnie konwersja danych medycznych na PNG/JPG nie jest poprawna - nie bez powodu stosowany jest format DICOM/MHA/MHD/NIFTI.
