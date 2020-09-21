@@ -1,5 +1,5 @@
-# projekt_TOM:closed_book :
-Opis:clipboard: :
+# projekt_TOM:closed_book: :
+Opis:clipboard: : </br>
 Projekt w ramach przedmiotu Techniki Obrazowania Medycznego, 
 Zespół nr 16,
 Stworzenie i wytrenowanie dwóch sieci neuronowych typu U-Net mających za zadanie wykrywanie nerek oraz ich nowotworów z przekrojów CT.
