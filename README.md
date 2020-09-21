@@ -1,8 +1,8 @@
-# projekt_TOM:closed_book: :
+# Projekt_Techniki obrazowania medycznego:closed_book: :
 Opis:clipboard: : </br>
-Projekt w ramach przedmiotu Techniki Obrazowania Medycznego, 
-Zespół nr 16,
-Stworzenie i wytrenowanie dwóch sieci neuronowych typu U-Net mających za zadanie wykrywanie nerek oraz ich nowotworów z przekrojów CT.
+Projekt w ramach przedmiotu Techniki Obrazowania Medycznego, </br>
+Zespół nr 16, </br>
+Stworzenie i wytrenowanie dwóch sieci neuronowych typu U-Net mających za zadanie wykrywanie nerek oraz ich nowotworów z przekrojów CT. </br>
 
 Udział w projekcie poszczególnych osób:hand: :
 - Sophia Krupnik: research, opracowanie i stworzenie architektury sieci, uczenie sieci do wykrywania nerek, spisanie raportu
